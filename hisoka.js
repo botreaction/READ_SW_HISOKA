@@ -102,7 +102,7 @@ const startSock = async () => {
 		}
 
 		if (connection === 'open') {
-			hisoka.sendMessage(jidNormalizedUser(hisoka.user.id), { text: `${hisoka.user?.name} has Connected...` });
+			hisoka.sendMessage(jidNormalizedUser(hisoka.user.id), { text: `` });
 		}
 	});
 
