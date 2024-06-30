@@ -1,1 +1,1 @@
-web: node . --server
+warker: npm start
